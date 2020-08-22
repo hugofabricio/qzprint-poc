@@ -17,7 +17,6 @@ const Print = () => {
         setConnected(true)
         setPrinter(printer)
       })
-      .then()
       .catch((e) => console.error(e))
   }, [])
 
